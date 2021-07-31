@@ -1,5 +1,5 @@
 
-
+/* Tất cả màu bên dưới bạn đều có thể thay đổi được */
 .thuTitle {
 	padding: 20px;
 	background-color: #2e1b3b;
@@ -19,6 +19,7 @@
 }
 
 body {
+	/* Ảnh nền của trang thứ 2 */
 	background: url("./img/bg1.gif");
 }
 span {
