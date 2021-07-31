@@ -8,7 +8,7 @@ title.addEventListener('mouseenter', function(){
 		delay: function(el, i) {
 			return i*10;
 		},
-		color: ["#232323","#ea4335"],
+		color: ["#fff","#fff"],
 		duration: 200,
 	})
 });
@@ -21,7 +21,7 @@ title.addEventListener('click', function(){
 		delay: function(el, i) {
 			return i*10;
 		},
-		color: ["#232323","#ea4335"],
+		color: ["#fff","#fff"],
 		duration: 200,
 	})
 });
@@ -34,7 +34,7 @@ title.addEventListener('mouseleave', function(){
 		delay: function(el, i) {
 			return i*10;
 		},
-		color: ["#232323","#ea4335"],
+		color: ["#fff","#fff"],
 		duration: 200,
 		direction: 'reverse'
 	})

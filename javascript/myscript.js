@@ -118,6 +118,7 @@ divLayer.style.transform = "scaleY(0)";
 
 
 getclickf.addEventListener('click', function(){
+	getclickf.style.display = "none";
 	anime({
 		targets: divLayer,
 		easing: 'easeOutSine',
