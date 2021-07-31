@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 242.26 215.48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ed5956;
+      }
+
+      .cls-2 {
+        fill: #ea4335;
+      }
+    </style>
+  </defs>
+  <title>timmau</title>
+  <path class="cls-1" d="M804.5,92.92a64.12,64.12,0,0,1-13.17,20L688,221v-182c.17.2.34.39.5.59C749.08-37.66,829.33,32.2,804.5,92.92Z" transform="translate(-566.87 -5.47)"/>
+  <path class="cls-2" d="M571.5,92.92a64.12,64.12,0,0,0,13.17,20L688,221v-182c-.17.2-.34.39-.5.59C626.92-37.66,546.67,32.2,571.5,92.92Z" transform="translate(-566.87 -5.47)"/>
+</svg>

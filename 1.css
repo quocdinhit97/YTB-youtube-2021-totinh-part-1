@@ -1,0 +1,97 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+body {
+	background: url('https://goo.gl/jPMU7X');
+	background-size: cover;
+	background-repeat: none;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.firstclk {
+	font-weight: 500;
+	font-size: 28pt;
+	font-family: 'Sacramento', cursive;
+	color: #6d3842;
+	cursor: pointer;
+}
+.layerMask {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: url('https://goo.gl/mcT1yC');
+	background-size: cover;
+	background-repeat: none;
+}
+
+.layerMask2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background-color: pink;
+	background-size: cover;
+	background-repeat: repeat-y;
+}
+
+.Description .sup{
+	display: inline-block;
+	color: #ea4335;
+}
+.drawHeart img {
+	position:absolute;
+	height: 100%;
+	width: 100%;
+}
+span{
+	display: inline-block;
+	white-space: pre;
+}
+
+.Description .sup:hover{
+	color: #ffb8c0;
+}
+
+.box {
+	position: relative;
+	display: inline-block;
+}
+.child {
+	position: absolute;
+	background-color: #f15371;
+	width: 100%;
+	height: 80%;
+	top: 0;
+	left: 0;
+}
+
+.me {
+	font-size: 10pt;
+	color: gray;
+}
+
+.author .me {
+	cursor: default;
+}
+.author .me a{
+	cursor: default;
+	font-size: 4pt;
+}
+
+.music {
+	display: none;
+}
+
+#crush {
+	width: 100%;
+	height: 37%;
+}
+.close-layerMask2:hover {
+	color: #f4f4f4;
+}
