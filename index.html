@@ -191,9 +191,11 @@
 
 	<script src="javascript/charming.js"></script>
 	<script src="javascript/anime.js"></script>
-	<script src="javascript/scrollMonitor.js"></script>
 	<script src="javascript/myscript.js"></script>
-	<audio src="music/mySong.mp4" autoplay="true"></audio>
+	<iframe src="./music/music.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+	<audio id="player" autoplay loop>
+		<source src="./music/music.mp3" type="audio/mp3">
+	</audio>
 </body>
 
 </html>
