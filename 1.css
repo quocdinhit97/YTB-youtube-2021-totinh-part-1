@@ -7,8 +7,6 @@ html, body {
 }
 
 body {
-	/* Bật lên nếu bạn mún thêm ảnh nền */
-	/* background: url('./img/pinkBackground.jpg'); */
 	background-color: white;
 	background-size: cover;
 	background-repeat: none;
