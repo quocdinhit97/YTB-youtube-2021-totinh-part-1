@@ -20,7 +20,9 @@
 
 body {
 	/* Ảnh nền của trang thứ 2 */
-	background: url("./img/bg1.gif");
+	background-image: url("./img/bg2.jpg");
+	background-size: cover;
+    background-repeat: none;
 }
 span {
 	display: inline-block;

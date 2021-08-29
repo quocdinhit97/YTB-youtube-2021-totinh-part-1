@@ -48,7 +48,8 @@ theTime.add({
 	duration: 2000,
 	update: function(percent) {
 		var thePercent = Math.round(percent.progress);
-		document.querySelector('.container .sup').innerHTML= "Nhịp tim của anh " + (thePercent+899);
+		// Nội dung của nút bên dưới
+		document.querySelector('.container .sup').innerHTML= "Tim anh đang đập nhanh " + (thePercent+899);
 	}
 });
 theTime.add({
@@ -189,8 +190,10 @@ getclickf.addEventListener('click', function(){
 var cantho =document.querySelector('.main');
 cantho.insertAdjacentHTML('afterend', '<div class="author mt-5"><div class="row"><div class="col-12"><div class="me text-danger text-right"></div></div></div></div>');
 
-document.querySelector('.Description .modal-title').innerHTML = '<i class="far fa-comment-alt"></i>&nbsp;Nhịp tim như vậy là vì';
-document.querySelector('.Description .modal-body').innerHTML = 'Anh thích em <i class="fas fa-heart"></i> ';
+// Phần popup khi bạn nhấn vào nút "Nhịp tim của anh"
+document.querySelector('.Description .modal-title').innerHTML = '<i class="far fa-comment-alt"></i>&nbsp;Nhịp tim như vậy là tại vì:';
+document.querySelector('.Description .modal-body').innerHTML = 'Anh thích em đó <i class="fas fa-heart"></i> ';
 var author = document.querySelector('.author .me');author.style.opacity = "0.5";
-author.innerHTML = "Bản quyền thuộc về<a href='https://anonyviet.com'>Lmint<a>";
+
+author.innerHTML = "Mọi thắc mắc bạn có thể liên hệ<a href='https://www.facebook.com/PhungQuocDinh/'>Quốc Định<a>";
 author.style.opacity = "0";
