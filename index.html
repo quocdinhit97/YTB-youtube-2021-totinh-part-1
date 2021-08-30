@@ -100,7 +100,19 @@
 			<div class="row">
 				<div class="col-12">
 
+					<!-- Đây là chổ hiển thị đoạn chữ "Hey crush I love you" -->
+					<!-- Nếu các bạn muốn thay đổi nó làm theo các bước dưới -->
+					<!-- 1. xóa đoạn <svg> </svg> bên dưới đi (cả khỏi svg luôn nha, mình có note bên dưới đó) -->
+					<!-- 2. Vào trang https://maketext.io/ nhập text bạn muốn đồi chọn style và download svg -->
+					<!-- 3. Mở file svg vừa tạo và tải về copy và dán toàn bộ nôi dung bên dưới ghi chú này -->
+					<!-- 4. Thêm đoạn này vào trong thẻ svg "id="crush" class="mt-4 crush" data-name="Layer 1"" -->
+					<!-- Sau khi làm xong thì code sẽ được giống như thế này
+					<svg id="crush" class="mt-4 crush" data-name="Layer 1">
+						........................................
+						........................................
+					</svg> -->
 
+					<!-- Bắt đầu phần svg (Xóa từ đây)-->
 					<svg id="crush" class="mt-4 crush" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 616.62 199.74">
 						<defs>
@@ -176,6 +188,7 @@
 								transform="translate(-5.56 0.07)" />
 						</g>
 					</svg>
+					<!-- Kết thúc phần svg (Xóa tới đây)-->
 
 					<div class="col-12 text-center tamthu" style="font-size: 18pt;">
 
@@ -195,6 +208,7 @@
 	<iframe src="./music/music.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
 
 	<!-- Phần nhạc -->
+	<!-- Bạn tải 1 bài nhạc rồi copy vào thư mục music và thay đổi tên bài hát ở bên dưới -->
 	<audio id="player" autoplay loop>
 		<source src="./music/music.mp3" type="audio/mp3">
 	</audio>
